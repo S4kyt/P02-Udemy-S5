@@ -6,7 +6,7 @@ Continuation of my practice programs for the Udemy course I am taking.
 
 <br>
 
-This part contains:
+### This part contains:
   * Pointer, Value manipulation for Pointer by changing memory address, Memory address used as function parameter
 
 ### Note: myFunction(&newValue);
