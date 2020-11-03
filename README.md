@@ -2,14 +2,19 @@
 
 Continuation of my practice programs for the Udemy course I am taking.
 
-Note: Things will probaly get commented out as I progress, because I am working in a single solution for a bunch of tutorials.
+### Note: Things will probaly get commented out as I progress, because I am working in a single solution for a bunch of tutorials.
+
+<br>
+
 This part contains:
   * Pointer, Value manipulation for Pointer by changing memory address, Memory address used as function parameter
 
-Note: myFunction(&newValue);
-      myFunction(p_value);
+### Note: myFunction(&newValue);
+          myFunction(p_value);
       
-Difference? Yes, I know I cleared it up once, but Im curious if I will remember why they are different, tomorrow!
+Whats the difference? Yes, I know I cleared it up once, but Im curious if I will remember why they are different, tomorrow!
+
+<br>
 
 ### Learn programming:
 If you are interested in learning C++, I can wholeheartedly recommend tagging along with this course:<br>
