@@ -9,10 +9,9 @@ Continuation of my practice programs for the Udemy course I am taking.
 ### This part contains:
   * Pointer, Value manipulation for Pointer by changing memory address, Memory address used as function parameter
 
-### Note: myFunction(&newValue);
-          myFunction(p_value);
-      
-Whats the difference? Yes, I know I cleared it up once, but Im curious if I will remember why they are different, tomorrow!
+### Note: Whats the difference? Yes, I know I cleared it up once, but Im curious if I will remember why they are different, tomorrow!
+    myFunction(&newValue);
+    myFunction(p_value);  
 
 <br>
 
