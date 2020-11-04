@@ -5,9 +5,9 @@ Continuation of my practice programs for the Udemy course I am taking.
 <br>
 
 ### This part contains:
-  * A simple program that seperates each bit of lecture into its own part, so I wont have to modify the code every time I would like to take a look at it working again. <br><br>This program includes the following lectures:
-     * Pointer, Value manipulation for Pointer by changing memory address, Memory address used as function parameter
-     * Arithmetics, "The forgotten operators" which I quite frankly forgot as soon as I've learned about them when I was back in uni, but they are still valuable to know about.
+A simple program that seperates each bit of lecture into its own part, so I wont have to modify the code every time I would like to take a look at it working again. <br><br>This program includes the following lectures:
+  * Pointer, Value manipulation for Pointer by changing memory address, Memory address used as function parameter
+  * Arithmetics, "The forgotten operators" which I quite frankly forgot as soon as I've learned about them when I was back in uni, but they are still valuable to know about.
      * **To be continued.**
      
 <br>
