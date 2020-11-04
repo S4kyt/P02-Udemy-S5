@@ -8,4 +8,6 @@
 
 void pointerPractice();
 
+void methicPractice();
+
 #endif

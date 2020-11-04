@@ -17,7 +17,7 @@ int main()
 		clearScreen();
 		std::cout << "Choose which subject's results you'd like to see: " << std::endl;
 		std::cout << "1. Pointer" << std::endl;
-		std::cout << "2. Unavailable" << std::endl;
+		std::cout << "2. Arithmetic" << std::endl;
 		std::cout << "3. Unavailable" << std::endl;
 		std::cout << "4. Exit program" << std::endl;
 
@@ -34,7 +34,7 @@ int main()
 		{
 			// Unavailable
 			clearScreen();
-			std::cout << "This is not available yet." << std::endl;
+			methicPractice();
 		}
 		else if (menuInput == "3")
 		{

@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\arithmetic.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\pointer.cpp" />
     <ClCompile Include="src\util.cpp" />
