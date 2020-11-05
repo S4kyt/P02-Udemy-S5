@@ -12,6 +12,14 @@ A simple program that seperates each bit of lecture into its own part, so I wont
      
 <br>
 
+### During this segment of my journey I've also learned about:
+ * /MP, Multi-processor compilation - In a nutshell reducing compilation times since VStudio is using a single core to compile. Turning this off decreases compile time, increases fun having to be had.
+ * /permissive, /permissive-, Conformance mode, turning it off / on, why it is beneficial to have it off / on.
+ * Project Templates (NEEDS RESEARCH!)
+   ### Reference to materials listed above (in order):
+    * https://docs.microsoft.com/en-us/cpp/build/reference/permissive-standards-conformance?view=msvc-160
+    * https://docs.microsoft.com/en-us/cpp/build/reference/mp-build-with-multiple-processes?view=msvc-160
+ 
 ### Learn programming:
 If you are interested in learning C++, I can wholeheartedly recommend tagging along with this course:<br>
 
