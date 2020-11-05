@@ -10,4 +10,6 @@ void pointerPractice();
 
 void methicPractice();
 
+void ptrAndArrayPractice();
+
 #endif

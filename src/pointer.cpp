@@ -1,6 +1,14 @@
 // Pointer
 // IOL:
 
+// Task was: How to practice C++ pointer
+// 1. Type out value, double
+// 2. Try declaring pointer to that value
+// 3. Try using the pointer to change its value
+// 4. Then declare function that takes a pointer as parameter,
+//	  and try passing our value's address to that function,
+//	  try changing it there and see what I get.
+
 #include <iostream>
 
 #include "util.h"

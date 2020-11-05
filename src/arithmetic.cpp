@@ -3,9 +3,8 @@
 //			  Instead I finished this project without using them, and still completed a small program with it.
 //            The program is a Second - to - Hour,Minute,Second converter!
 //
-// Project description:
+// Task was:
 // Take large numbers of seconds and convert it to hours, minutes, seconds
-// Write a for loop that iterates 10,000 times; output a dot (on the same line) every 100 iteration (use mod %)
 
 #include <iostream>
 

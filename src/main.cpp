@@ -1,5 +1,12 @@
 // This project contains every single subject within Section 5 of the course.
 
+// I thought about why my brain decided this is the best way to upload practice projects like this(for me)!
+//	- You dont have a million repositories lingering around
+//	- You are challenged to keep everything organized and tidy
+//	- You can add some fancy stuff like I did with clearScreen(); and toContinue();
+//	- You can be as creative with the menu and its navigation as you'd like!
+//	- And most importantly! Because I really like it this way! :)
+
 #include <iostream>
 #include <limits>
 
@@ -18,7 +25,7 @@ int main()
 		std::cout << "Choose which subject's results you'd like to see: " << std::endl;
 		std::cout << "1. Pointer" << std::endl;
 		std::cout << "2. Arithmetic" << std::endl;
-		std::cout << "3. Unavailable" << std::endl;
+		std::cout << "3. Ptr & Array" << std::endl;
 		std::cout << "4. Exit program" << std::endl;
 
 		std::cin >> menuInput;
@@ -32,19 +39,20 @@ int main()
 		}
 		else if (menuInput == "2")
 		{
-			// Unavailable
+			// Arithmetic(SecToHrMinSec)
 			clearScreen();
 			methicPractice();
 		}
 		else if (menuInput == "3")
 		{
-			// Unavailable
+			// Ptr&Array
 			clearScreen();
-			std::cout << "This is not available yet." << std::endl;
+			ptrAndArrayPractice();
 		}
 		else if (menuInput == "4")
 		{
 			// Exit
+			std::cout << "Exiting..." << std::endl;
 			browsingSubjects = false;
 			break;
 		}
