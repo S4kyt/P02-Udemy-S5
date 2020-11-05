@@ -12,6 +12,7 @@ A simple program that seperates each bit of lecture into its own part, so I wont
      
 <br>
 
+## Note to self: Dont forget that /MP and /permissive, /permissive- are Project Properties, having to be set up again the way I prefer every time I make a new project. Maybe find a workaround that? Should make a collection of my prefered project settings / formatting soon grouped into one place so its all fanceyyyy~
 ### During this segment of my journey I've also learned about:
  * /MP, Multi-processor compilation - In a nutshell reducing compilation times since VStudio is using a single core to compile. Turning this off decreases compile time, increases fun having to be had.
  * /permissive, /permissive-, Conformance mode, turning it off / on, why it is beneficial to have it off / on.
