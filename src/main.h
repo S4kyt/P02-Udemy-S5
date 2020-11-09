@@ -14,4 +14,6 @@ void ptrAndArrayPractice();
 
 void charArrayPractice();
 
+void stringReversePractice();
+
 #endif

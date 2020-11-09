@@ -30,11 +30,12 @@ int main()
 		std::cout << "2. Arithmetic" << std::endl;
 		std::cout << "3. Ptr & Array" << std::endl;
 		std::cout << "4. Char Array" << std::endl;
+		std::cout << "5. Reversing Strings" << std::endl;
 
-		std::cout << "5. *EXTRA*" << std::endl;
+		std::cout << "6. *EXTRA*" << std::endl;
 
 		std::cout << "\n";
-		std::cout << "6. Exit program" << std::endl;
+		std::cout << "7. Exit program" << std::endl;
 
 		std::cin >> menuInput;
 
@@ -65,11 +66,17 @@ int main()
 		}
 		else if (menuInput == "5")
 		{
+			// Pointer Arithmetic
+			clearScreen();
+			stringReversePractice();
+		}
+		else if (menuInput == "6")
+		{
 			// Extra
 			clearScreen();
 			displayExtra();
 		}
-		else if (menuInput == "6")
+		else if (menuInput == "7")
 		{
 			// Exit
 			std::cout << "Exiting..." << std::endl;

@@ -26,6 +26,7 @@
     <ClCompile Include="src\pointer.cpp" />
     <ClCompile Include="src\chararray.cpp" />
     <ClCompile Include="src\ptrandarray.cpp" />
+    <ClCompile Include="src\stringreverse.cpp" />
     <ClCompile Include="src\util.cpp" />
   </ItemGroup>
   <ItemGroup>
