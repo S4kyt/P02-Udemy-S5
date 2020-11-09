@@ -2,7 +2,7 @@
 
 // I thought about why my brain decided this is the best way to upload practice projects like this(for me)!
 //	- You dont have a million repositories lingering around
-//	- You are challenged to keep everything organized and tidy
+//	- You are challenged to keep everything organized and tidy (or try at least)
 //	- You can add some fancy stuff like I did with clearScreen(); and toContinue();
 //	- You can be as creative with the menu and its navigation as you'd like!
 //	- And most importantly! Because I really like it this way! :)
@@ -31,11 +31,13 @@ int main()
 		std::cout << "3. Ptr & Array" << std::endl;
 		std::cout << "4. Char Array" << std::endl;
 		std::cout << "5. Reversing Strings" << std::endl;
+		std::cout << "6. References" << std::endl;
+		std::cout << "7. Const" << std::endl;
 
-		std::cout << "6. *EXTRA*" << std::endl;
+		std::cout << "8. *EXTRA*" << std::endl;
 
 		std::cout << "\n";
-		std::cout << "7. Exit program" << std::endl;
+		std::cout << "9. Exit program" << std::endl;
 
 		std::cin >> menuInput;
 
@@ -54,29 +56,41 @@ int main()
 		}
 		else if (menuInput == "3")
 		{
-			// Ptr&Array
+			// Ptr & Array
 			clearScreen();
 			ptrAndArrayPractice();
 		}
 		else if (menuInput == "4")
 		{
-			// Pointer Arithmetic
+			// Char Array
 			clearScreen();
 			charArrayPractice();
 		}
 		else if (menuInput == "5")
 		{
-			// Pointer Arithmetic
+			// Reversing Strings
 			clearScreen();
 			stringReversePractice();
 		}
 		else if (menuInput == "6")
 		{
+			// References
+			clearScreen();
+			referencePractice();
+		}
+		else if (menuInput == "7")
+		{
+			// Const
+			clearScreen();
+			constPractice();
+		}
+		else if (menuInput == "8")
+		{
 			// Extra
 			clearScreen();
 			displayExtra();
 		}
-		else if (menuInput == "7")
+		else if (menuInput == "9")
 		{
 			// Exit
 			std::cout << "Exiting..." << std::endl;

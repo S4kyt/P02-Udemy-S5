@@ -16,4 +16,8 @@ void charArrayPractice();
 
 void stringReversePractice();
 
+void referencePractice();
+
+void constPractice();
+
 #endif
