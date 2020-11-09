@@ -20,6 +20,7 @@ void myFunction(double* p_value)
 
 	std::cout << "Pointer's function value: " << *p_value << std::endl;
 	std::cout << "Pointer's function address: " << &funcValue << std::endl;
+	std::cout << "\n";
 }
 
 void pointerPractice()
@@ -30,6 +31,7 @@ void pointerPractice()
 
 	std::cout << "Value: " << value << std::endl;
 	std::cout << "Default pointer's memory address: " << p_value << std::endl;
+	std::cout << "\n";
 
 	// 3. Try using the pointer to change its value
 	double newValue = 44.4;
@@ -37,6 +39,7 @@ void pointerPractice()
 
 	std::cout << "Pointer's new value: " << *p_value << std::endl;
 	std::cout << "Pointer's new address: " << p_value << std::endl;
+	std::cout << "\n";
 
 	// 4. Then declare function that takes a pointer as parameter,
 	//    and try passing our value's address to that function,

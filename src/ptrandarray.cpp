@@ -2,9 +2,9 @@
 // IOL:
 
 // Task:
-// Loop through an array using a pointer, with array element reference syntax
-// Loop through an array by incrementing a pointer
-// Loop through an array, stopping by comparing two pointers
+// Loop through an array using a pointer, with array element reference syntax *Didn't feel like it.*
+// Loop through an array by incrementing a pointer *Didn't feel like it.*
+// Loop through an array, stopping by comparing two pointers *DONE*
 
 #include <iostream>
 
@@ -25,31 +25,41 @@ void ptrAndArrayPractice()
 	// Pointing to the first element of the array
 	std::string* startPtr = &(enemyNameArray[0]);
 
-	std::cout << "First element of the array by address and the element's name: " << std::endl;
-	std::cout << startPtr << std::endl;
+	std::cout << "First element of the array by name and then element's address: " << std::endl;
 	std::cout << *startPtr << std::endl;
+	std::cout << startPtr << std::endl;
 
-	std::string* endPtr = &(enemyNameArray[2]);
+	std::string* endPtr = &(enemyNameArray[4]);
 	
 	std::cout << "\n";
-	std::cout << "Last element of the array by address and the element's name: " << std::endl;
-	std::cout << endPtr << std::endl;
+	std::cout << "Last element of the array by name and then element's address: " << std::endl;
 	std::cout << *endPtr << std::endl;
+	std::cout << endPtr << std::endl;
+	std::cout << "\n\n";
 
-
-
-	// Until i == with the array's last element's memory address.
+	// this is one way of doing it! but its without pointer.
 	int enemyNameArrLength = sizeof(enemyNameArray) / sizeof(std::string);
 
 	for (int i = 0; i < enemyNameArrLength; i++)
 	{
 		// bad, need to do with pointer
 	}
-	
-	// Got stuck here, but I will figure it out tomorrow!
 
+	// Loop through an array, stopping by comparing two pointers
+	std::cout << "Contents of array: " << std::endl;
+	while (true)
+	{
+		std::cout << *startPtr << " " << std::endl;
+		std::cout << startPtr << " " << std::endl;
+		std::cout << "\n";
 
+		if (startPtr == endPtr)
+		{
+			break;
+		}
 
+		startPtr++;
+	}
 
 	toContinue();
 }

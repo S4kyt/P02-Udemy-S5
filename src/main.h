@@ -12,4 +12,6 @@ void methicPractice();
 
 void ptrAndArrayPractice();
 
+void charArrayPractice();
+
 #endif

@@ -12,9 +12,12 @@
 
 #include "main.h"
 #include "util.h"
+#include "extra.h"
 
 int main()
 {
+	// Black background, ligh purple text
+
 	bool browsingSubjects = true;
 
 	std::string menuInput = "";
@@ -26,7 +29,12 @@ int main()
 		std::cout << "1. Pointer" << std::endl;
 		std::cout << "2. Arithmetic" << std::endl;
 		std::cout << "3. Ptr & Array" << std::endl;
-		std::cout << "4. Exit program" << std::endl;
+		std::cout << "4. Char Array" << std::endl;
+
+		std::cout << "5. *EXTRA*" << std::endl;
+
+		std::cout << "\n";
+		std::cout << "6. Exit program" << std::endl;
 
 		std::cin >> menuInput;
 
@@ -50,6 +58,18 @@ int main()
 			ptrAndArrayPractice();
 		}
 		else if (menuInput == "4")
+		{
+			// Pointer Arithmetic
+			clearScreen();
+			charArrayPractice();
+		}
+		else if (menuInput == "5")
+		{
+			// Extra
+			clearScreen();
+			displayExtra();
+		}
+		else if (menuInput == "6")
 		{
 			// Exit
 			std::cout << "Exiting..." << std::endl;

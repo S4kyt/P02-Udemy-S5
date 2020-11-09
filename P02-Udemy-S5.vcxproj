@@ -20,12 +20,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\arithmetic.cpp" />
+    <ClCompile Include="src\extra.cpp" />
+    <ClCompile Include="src\linkedlist\linkedlist.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\pointer.cpp" />
+    <ClCompile Include="src\chararray.cpp" />
     <ClCompile Include="src\ptrandarray.cpp" />
     <ClCompile Include="src\util.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\extra.h" />
     <ClInclude Include="src\main.h" />
     <ClInclude Include="src\util.h" />
   </ItemGroup>
