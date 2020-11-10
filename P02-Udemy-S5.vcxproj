@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\arithmetic.cpp" />
+    <ClCompile Include="src\conereme.cpp" />
     <ClCompile Include="src\const.cpp" />
     <ClCompile Include="src\extra.cpp" />
     <ClCompile Include="src\linkedlist\linkedlist.cpp" />

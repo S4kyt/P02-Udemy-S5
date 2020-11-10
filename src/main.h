@@ -20,4 +20,6 @@ void referencePractice();
 
 void constPractice();
 
+void coNeReMePractice();
+
 #endif

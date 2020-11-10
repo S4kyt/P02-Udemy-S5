@@ -33,11 +33,12 @@ int main()
 		std::cout << "5. Reversing Strings" << std::endl;
 		std::cout << "6. References" << std::endl;
 		std::cout << "7. Const" << std::endl;
+		std::cout << "8. Copy Constructor, New, Returning objects from functions, Memory alloc." << std::endl;
 
-		std::cout << "8. *EXTRA*" << std::endl;
+		std::cout << "9. *EXTRA*" << std::endl;
 
 		std::cout << "\n";
-		std::cout << "9. Exit program" << std::endl;
+		std::cout << "10. Exit program" << std::endl;
 
 		std::cin >> menuInput;
 
@@ -86,11 +87,17 @@ int main()
 		}
 		else if (menuInput == "8")
 		{
+			// Const
+			clearScreen();
+			coNeReMePractice();
+		}
+		else if (menuInput == "9")
+		{
 			// Extra
 			clearScreen();
 			displayExtra();
 		}
-		else if (menuInput == "9")
+		else if (menuInput == "10")
 		{
 			// Exit
 			std::cout << "Exiting..." << std::endl;
