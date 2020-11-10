@@ -8,7 +8,7 @@ Continuation of my practice programs for the Udemy course I am taking.
 A simple program that seperates each bit of lecture into its own part, so I wont have to modify the code every time I would like to take a look at it working again. <br><br>This program includes the following lectures:
   * Pointer, Value manipulation for Pointer by changing memory address, Memory address used as function parameter
   * Arithmetics or more like: Sec to HrMinSec converter. I wont use assignment operators other than "=" from now on. They go against clean code for me. No good.
-  * Ptr & Array: Currently being developed, tomorrow it will get FINISHED.
+  * Ptr & Array
   * Char Array: Looping through one, 3 variants.
   * Reversing Strings
 		* References
