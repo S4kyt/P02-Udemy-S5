@@ -28,6 +28,8 @@ A simple program that seperates each bit of lecture into its own part, so I wont
    ### Reference to materials listed above (in order):
     * https://docs.microsoft.com/en-us/cpp/build/reference/permissive-standards-conformance?view=msvc-160
     * https://docs.microsoft.com/en-us/cpp/build/reference/mp-build-with-multiple-processes?view=msvc-160
+    * https://docs.microsoft.com/en-us/visualstudio/ide/how-to-create-project-templates?view=vs-2019
+    * https://www.sfml-dev.org/
  
 ### Learn programming:
 If you are interested in learning C++, I can wholeheartedly recommend tagging along with this course:<br>
