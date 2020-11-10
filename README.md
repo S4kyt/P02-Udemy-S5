@@ -10,6 +10,10 @@ A simple program that seperates each bit of lecture into its own part, so I wont
   * Arithmetics or more like: Sec to HrMinSec converter. I wont use assignment operators other than "=" from now on. They go against clean code for me. No good.
   * Ptr & Array: Currently being developed, tomorrow it will get FINISHED.
   * Char Array: Looping through one, 3 variants.
+  * Reversing Strings
+		* References
+  * Const
+		* Copy Constructor, New, Returning objects from functions, Memory alloc.
   * Extras: LinkedList, Double Linked List implementations. (Soon)
      * **To be continued.**
 <br>
