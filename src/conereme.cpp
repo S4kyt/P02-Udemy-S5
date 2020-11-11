@@ -1,4 +1,7 @@
-// Copy creator, New/Delete, Returning Objects from functions, Allocating Memory
+// Copy creator
+// New/Delete,
+// Returning Objects from functions
+// Allocating Memory
 
 /*
 1. Create class: Something like animal, has instance variable string, and set method lets setting that string,
